@@ -52,5 +52,3 @@ kubectl get pods -n default
 Grafana Dashboard:
 
 kubectl port-forward svc/grafana 3000 -n default
-
-kubectl delete all --all --namespace=default

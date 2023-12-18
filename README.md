@@ -41,8 +41,7 @@ Deploy Grafana
 kubectl apply -f 06-grafana
 kubectl get pods -n default
 
-Import Ingress Grafana Dashboard
-# Grafana Dashboard: https://grafana.com/grafana/dashboards/9614
+Grafana Dashboard
 kubectl port-forward svc/grafana 3000 -n default
 
 kubectl delete all --all --namespace=default

@@ -1,5 +1,8 @@
 # TP6
 
+Create Custom Resource Definitions for Prometheus Operator:
+
+kubectl apply -f 01-prometheus-operator-crd
 
 Deploy Prometheus Operator:
 
